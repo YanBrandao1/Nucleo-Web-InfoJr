@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Open sans' , sans-serif;
+    /*font-size: .7rem;*/
+    color: rgb(206, 26, 26);
+}
+
+.main-content{
+    height: 100vh;
+    width: 100vw;
+}
+
+.flexbox{
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-text{
+    width: 80rem;
+    margin-top: 5rem;
+}
+
+.jogodavelha-box{
+    width: 40rem;
+    height: 40rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-text h1{
+    font-size: 7rem;
+}
+
+.div-text ol li{
+    font-size: 1.7rem;
+}
+
+.div-text ol li p{
+    word-break: break-all;
+}
+
+.jogodavelha-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.play-button{
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+}
+
+.button-container:hover {
+    background-color: lightsalmon;
+    transition: .7s;
+}
+
+.button-container{
+    text-align: center;
+    background-color: rgb(206, 26, 26);
+    width: 19rem;
+    border-radius: 5rem;
+}
+
+.play-container-mobile{
+    display: none;
+}
+
+@media (max-width: 1042px){
+
+    .jogodavelha-box{
+        display: none;
+    }
+    
+    .flexbox{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10rem;
+    }
+
+    .play-container-mobile{
+        display: block;
+        text-align: center;
+        background-color: rgb(206, 26, 26);
+        width: 15rem;
+        height: 4rem;
+        border-radius: 5rem;
+        margin-bottom: 7rem;
+    }
+    
+    .play-container-mobile:hover{
+        background-color: lightsalmon;
+        transition: .7s;
+    }
+
+    .play-button-mobile{
+        text-decoration: none;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .div-text h1{
+        font-size: 4rem;
+        max-width: 70rem;
+        padding-left: 15rem;
+        
+    }
+
+    .div-text ol li{
+        font-size: 1.5rem;
+        max-width: 60rem;
+        padding-left: 15rem;
+    }
+}
