@@ -1,0 +1,38 @@
+
+
+
+.painel {
+    width: 18vw;
+    height: 8rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: .5rem;
+    z-index: 1;
+}
+
+.painel h1 {
+    font-size: 1rem;
+}
+
+.painel h2 {
+    font-size: 2.2rem;
+    margin-left: 1.2vw;
+}
+
+.flexboxProps{
+    display: flex;
+    column-gap: 9.5vw;
+    margin-left: 1.2vw;
+}
+
+  @media (max-width: 900px) {
+    .painel {
+        width: 20rem;
+    }
+    .flexboxProps{
+        column-gap: 10rem;
+    }
+  }

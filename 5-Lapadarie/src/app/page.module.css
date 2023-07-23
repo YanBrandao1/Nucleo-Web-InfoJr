@@ -1,0 +1,348 @@
+
+.main {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.topBox{
+  max-width: 100vw;
+  height: 25vh;
+  background-color: #965A1B;
+  display: flex;
+  justify-content:center;
+}
+.logoBox{
+  height: 10rem;
+  width: 10rem;
+}
+.logo {
+  margin-top: 3rem;
+  height: 100%;
+  width: 100%;
+}
+
+.bottomBox{
+  max-width: 100vw;
+  height: 80vh;
+  background-color: #E5CF94;
+  display: flex;
+  justify-content: center;
+}
+.mainSection {
+  margin-top: 7rem;
+  width: 80rem;
+  max-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.addButton{
+  text-decoration: none;
+  background-color:#E5CF94;
+  border: none;
+  font-weight: 900;
+  color: #5F3305;
+  cursor: pointer;
+}
+
+.requestsBox{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  max-height: 65rem;
+  overflow-y: auto;
+  overflow-x: auto;
+  color: #5F3305;
+}
+
+.requestsBox::-webkit-scrollbar{
+  width: .7rem;
+  height: .7rem;
+}
+
+.requestsBox::-webkit-scrollbar-track{
+  background: #E5CF94;
+}
+
+.requestsBox::-webkit-scrollbar-thumb{
+  background-color: #888; /* Cor do thumb da barra de rolagem */
+  border-radius: 5px; 
+}
+
+.requestsBox::-webkit-scrollbar-thumb:hover{
+  background-color: #555; 
+}
+
+.painel1{
+  position: absolute;
+  left: 20vw;
+  top: 21%;
+}
+
+.painel2{
+  position: absolute;
+  left: 40vw;
+  top: 21%;
+}
+
+.painel3{
+  position: absolute;
+  left: 60vw;
+  top: 21%;
+  color: #FFFFFF;
+}
+
+.painel3 h1{
+  padding-right: 2vw;
+}
+
+.painel3 h2{
+  margin-left: 5.1rem;
+}
+
+.modalBackground {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #E5CF9480;
+  position: absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.footer{
+  font-weight: 600;
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+
+  .painel1{
+    left: 36%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 36%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 36%;
+    top: 42%;
+  }
+
+  .painel3 h1 {
+    padding-right: 3.6rem;
+  }
+
+  .mainSection{
+    margin-top: 31rem;
+  }
+
+  .requestsBox{
+    max-width: 30rem;
+    
+  }
+
+  .mainSection{
+    width: 25rem;
+  }
+
+  .modal{
+    max-height: 32rem;
+    max-width: 24rem;
+    margin-right: 2.2rem;
+    margin-bottom: 28rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .painel1{
+    left: 35%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 35%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 35%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 700px) {
+  .painel1{
+    left: 34%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 34%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 34%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 637px) {
+  .painel1{
+    left: 31%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 31%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 31%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 574px) {
+  .painel1{
+    left: 29%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 29%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 29%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 485px) {
+  .painel1{
+    left: 26%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 26%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 26%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 440px) {
+  .painel1{
+    left: 24%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 24%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 24%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 407px) {
+  .painel1{
+    left: 21%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 21%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 21%;
+    top: 42%;
+  }
+
+}
+@media (max-width: 350px) {
+  .painel1{
+    left: 17%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 17%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 17%;
+    top: 42%;
+  }
+}
+
+@media (max-width: 300px) {
+  .painel1{
+    left: 12%;
+    top: 21%;
+  }
+
+  .painel2{
+    left: 12%;
+    top: 31%;
+  }
+  
+  .painel3{
+    left: 12%;
+    top: 42%;
+  }
+}
+
+@media ((max-height: 850px) and (max-width:900px)) {
+  .painel1{
+    top: 21%;
+  }
+
+  .painel2{
+    top: 32%;
+  }
+  
+  .painel3{
+    top: 43%;
+  }
+  .modal{
+    margin-bottom: 23rem;
+  }
+}
+
+@media ((max-height: 750px)  and (max-width:900px)) {
+  .painel1{
+    top: 21%;
+  }
+
+  .painel2{
+    top: 34%;
+  }
+  
+  .painel3{
+    top: 47%;
+  }
+  .modal{
+    margin-bottom: 15rem;
+  }
+}

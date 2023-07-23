@@ -1,0 +1,97 @@
+
+
+
+.modal {
+    width: 40rem;
+    height: 24rem;
+    background-color: #FFFFFF;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.2rem;
+}
+
+.modal h1{
+    margin-right: 17.5rem;
+    margin-bottom: 2rem;
+    color: #5F3305;
+    font-weight: 700;
+}
+
+.flexboxInputs{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    row-gap: 1.2rem;
+    margin-bottom: 3.8rem;
+}
+.flexboxInputs input {
+    width: inherit;
+    height: 3.5rem;
+    padding-left: 1.5rem;
+    border-radius: .3rem;
+    border: none;
+    background-color: #F5F5F5;
+    color: #7D7D7D;
+    font-size: 1.3rem;
+}
+
+.buttonsFlexbox{
+    display: flex;
+    width: inherit;
+    justify-content:space-around;
+}
+
+.buttonsFlexbox button{
+    width: 16rem;
+    height: 4rem;
+    border-radius: .4rem;
+}
+
+.submitButton{
+    background-color: #5F3305;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.closeButton{
+    background-color: #FFFFFF;
+    color: #DB1E1E;
+    border: 1px solid #DB1E1E;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 900px){
+
+    .buttonsFlexbox{
+        flex-direction: column;
+        width: 16rem;
+        row-gap: 1.5rem;
+    }
+
+    .modal{
+        max-width: 23rem;
+        height: 29rem;
+    
+    }
+    .titleBox{
+        width: 18rem;
+    }
+
+    .flexboxInputs{
+        width: 18rem;
+    }
+
+    .titleBox h1 {
+        width: inherit;
+        text-align: center;
+        font-size: 1.2rem;
+        
+    }
+}

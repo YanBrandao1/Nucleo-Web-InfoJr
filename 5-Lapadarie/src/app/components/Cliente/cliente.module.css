@@ -1,0 +1,81 @@
+
+
+.clienteComponente{
+    background-color: #FFFFFFCC;
+    width: 80rem;
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+}
+
+.clienteComponente h1{
+    font-size: 1rem;
+    color: #5F3305;
+    font-weight: 900;
+    margin-left: 1rem;
+    margin-top: .6rem;
+}
+
+.clienteComponente .dataContainer h2 {
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.flexboxProps{
+    display: flex;
+    column-gap: 36rem;
+    margin-top: .9rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    width: 78rem;
+}
+
+.trashImg{
+    /*margin-left: 57rem;*/
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+.dataContainer {
+    display: flex;
+    column-gap: 1rem;
+    width: 40rem;
+}
+
+.imageContainer{
+    width: 2rem;
+    
+    /*margin-left: 57rem;*/
+}
+
+
+
+@media (max-width: 900px){
+
+    .clienteComponente{
+        width: 22rem;
+        
+    }
+
+    .trashImg {
+        margin-left: 0;
+        
+    }
+
+    .flexboxProps{
+        align-items: flex-start;
+        width: inherit;
+        column-gap: 3rem;
+    }
+
+    .dataContainer {
+        flex-direction: column;
+        width: 15rem;
+        row-gap: .2rem;
+    }
+}
+
+
