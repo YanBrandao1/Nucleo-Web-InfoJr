@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;700&family=Dela+Gothic+One&family=Josefin+Sans:wght@600&family=Lobster&family=Oooh+Baby&family=Overpass:wght@400;500&family=Righteous&family=Roboto:wght@400;500;700;900&display=swap');
+.Navbar{ 
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+    /* height: 5%; */
+    justify-content: center;
+    font-family: 'Dela Gothic One', cursive;
+    margin:0;  
+    
+}
+.Navbar a{
+    text-decoration: none; 
+    color: black;
+}
+.Navbar a:hover{
+    color: #990DCE;
+}
+.logo{
+    color:#990DCE ;
+    font-size: 3.125em!important;
+    /* margin-right: 2.6em !important; */
+    display: flex;
+    width: 18%;
+}
+.logo:hover{
+    cursor:default;
+}
+.Navbar ul{
+    color: black;
+    background-color: #2FDD41;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* width:69%; */
+    width: 80.625em;
+    height: 7.7em;
+
+    /* width: 1290px;
+    height: 123px;; */
+    
+
+
+    /* min-width: ; */
+    
+}
+.Navbar ul li{
+    font-size: 1.8125em;
+    margin:  0 1em 0 1em;
+    display: flex;
+}
+.logoutButton{
+    border-width: 3px;
+    border-color: #990DCE;  
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 14px;
+    background-color: transparent;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 1em;
+    margin:  0 1em 0 1em;
+}
+
+

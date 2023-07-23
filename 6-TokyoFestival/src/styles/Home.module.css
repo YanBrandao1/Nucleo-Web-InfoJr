@@ -1,0 +1,517 @@
+
+
+
+.header {
+    max-width: 100rem;
+    height: 8rem;
+}
+
+.imgContainer {
+    margin-top: 10rem;
+    position: relative;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #F5F5F5;
+    margin-bottom: 4rem;
+}
+
+.imgContainer h3 {
+    position: absolute;
+    top: 11%;
+    left: 24%;
+    font-size: 5rem;
+    border-radius: 3rem;
+    font-weight: 900;
+    z-index: 2;
+    border: none;
+}
+
+.imgContainer h1 {
+    position: absolute;
+    top: 18%;
+    left: 14%;
+    font-size: 16rem;
+    font-weight: 900;
+    border-radius: 3rem;
+    border: none;
+    z-index: 2;
+    /*box-shadow: 0px 0px 80px 40px black;*/
+}
+
+.imgContainerResponsivo {
+    display: none;
+    margin-top: 10rem;
+    position: relative;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #F5F5F5;
+    margin-bottom: 4rem;
+}
+
+.imgContainerResponsivo h3 {
+    position: absolute;
+    top: 16%;
+    left: 26%;
+    font-size: 4rem;
+    border-radius: 3rem;
+    font-weight: 900;
+    z-index: 2;
+    border: none;
+    color: #F5F5F5;
+}
+
+.imgContainerResponsivo h1 {
+    position: absolute;
+    top: 23%;
+    left: 18%;
+    font-size: 12rem;
+    font-weight: 900;
+    border-radius: 3rem;
+    border: none;
+    z-index: 2;
+    color: #F5F5F5;
+    /*box-shadow: 0px 0px 80px 40px black;*/
+}
+
+.bottomContent{
+    display: flex;
+    column-gap: 26rem;
+    color: #F5F5F5;
+}
+
+.bottomContent h3 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 5rem;
+}
+
+.buyButton{
+    display: flex;
+    width: 30rem;
+    height: 4rem;
+    background-color: #990DCE;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 4em 5em 4em;
+}
+.buyButton:hover{
+    background-color: #2FDD41;
+    cursor: pointer;
+}
+
+.buyButton a {
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-family: 'Dela Gothic One', sans-serif;
+    border: none;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.bShadow {
+    position: absolute;
+    top: 13%;
+    left: 14%;
+    background-color: #1E1E1E;
+    width: 74rem;
+    height: 23rem;
+    opacity: 0.7;
+    z-index: 1;
+    border-radius: 8rem;
+    box-shadow: 0px 0px 30px 30px #1E1E1E;
+}
+
+.sobreNosContainerBox {
+    display: flex;
+    /* width: inherit; */
+    /* height: 35rem; */
+    margin-top: 5rem;
+    column-gap: 18rem;
+
+}
+
+.span{
+    font-size: 1.96em;
+    -webkit-text-stroke: 0;
+    -webkit-text-fill-color: #2FDD41;
+    color:#2FDD41;
+    white-space: nowrap;
+
+}
+.sobreNosText {
+    font-size:16px;
+    /* width: 42%; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 2.2rem;
+}
+.sobreNosText h2 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: #2FDD41;
+}
+
+.sobreNosText p {
+    display: block;
+    width: 50rem;
+    color: #F5F5F5;
+    font-size: 1.8125em;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.sobreNosImageContainer{
+    position: relative;
+    height: inherit;
+    /* width: 401px; */
+}
+
+.layer {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+
+.sectionTitle{
+    display: flex;
+    font-size: 26px;
+    width: 100%;
+    overflow: hidden;
+    margin: 15rem 0 0.75em 0;
+}
+.sectionTitle h1{
+    -webkit-text-stroke: 0.1px #2FDD41;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    font-size: 1.96em;
+}
+
+.photoSectionBox {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    column-gap: 5rem;
+    margin-left: 3rem;
+    
+}
+
+.pAtracoesButtonBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12rem 9rem 0 9rem;
+    width: 40rem;
+    height: 7rem;
+    background-color: hsl(284, 88%, 43%);
+}
+.pAtracoesButtonBox:hover{
+    background-color: #2FDD41;
+}
+
+.pAtracoesButtonBox a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #F5F5F5;
+}
+
+.ingressoSectionBox {
+    display: flex;
+    margin-top: 5rem;
+    column-gap: 5rem;
+    margin-left: 3rem;
+}
+
+.ingressosButtonBox {
+    width: 60rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #990DCE;
+    margin: 8rem 25rem 12rem 25rem;
+}
+.ingressosButtonBox:hover{
+    background-color: #2FDD41;
+}
+.ingressosButtonBox a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #F5F5F5;
+
+}
+.ingressosButtonBox a span{
+    padding-bottom:2em;
+    
+}
+
+/* SEÇÃO FOTOS */
+
+.WrapperFotos{
+    display: flex;
+    justify-content: center;
+    margin: 20em 0 20em 0;
+}
+
+.fotosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12em;
+}
+
+.legendasContainer{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height: 100%;
+}
+
+.legendasContainer h1{
+    font-size: 12em;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    
+
+}
+
+.legendasContainer h2{
+    font-size: 3.7em;
+    text-align: center;
+
+}
+
+.legendasContainer h3{
+    font-size: 3em;
+    text-align: center;
+}
+
+.starImg{
+    margin-top: 5em;
+}
+
+/* SEÇÃO CONTATO */
+
+.contatoWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9em 0 20em 0;
+    gap:17em;
+}
+
+.contatoInfos{
+    font-size: 16px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:4em;
+    width: 25%;
+    height: 100%;
+}
+
+.contatoInfos div{
+    display: flex;
+    max-width: 85%;
+}
+
+.contatoInfos p{
+    font-size: 1.25em;
+    font-family: 'PT Sans Caption', sans-serif;
+    align-self: self-end;
+}
+
+.contatoIcon{
+    margin-right:1em;
+}
+
+.navbarResponsivo {
+    display: none;
+  }
+
+  .navbarDesktop{
+    display: flex;
+  }
+
+  .fotosContainerResponsivo{
+    display: none;
+  }
+
+  .carrossel{
+    display: none;
+  }
+
+  .layerResponsivo{
+    display: none;
+  }
+
+
+@media (max-width:1340px) {
+
+    .navbarResponsivo {
+        display: flex;
+        justify-content: center;
+      }
+    
+    .navbarDesktop{
+        display: none;
+      }
+    
+      .imgContainer{
+        display: none;
+      }
+
+      .imgContainerResponsivo{
+        display: block;
+      }
+      
+      .bShadow{
+        left: 13%;
+        width: 65rem;
+        height: 19rem;
+      }
+
+      .bottomContent{
+        column-gap: 10rem;
+      }
+
+      .bottomContent h3 {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+      }
+
+      .buyButton{
+        width: 35rem;
+        padding: 0;
+      }
+
+      .sobreNosContainerBox{
+        flex-direction: column-reverse;
+        row-gap: 7rem;
+      }
+
+
+      .sobreNosText h2 {
+        margin-left: 8rem;
+      }
+
+      .sobreNosText p {
+        margin-left: 8rem;
+      }
+
+      .sobreNosJaponeseImage{
+        margin-left: 10rem;
+      }
+
+      .fotosContainer{
+        display: none;
+      }
+
+      .fotosContainerResponsivo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .legendasContainer{
+        display: none;
+      }
+
+      .legendasBox {
+        position: relative;
+      }
+
+      .legendasBox h1 {
+        position: absolute;
+      }
+      
+      .legendasBox .numeroA {
+        top:-43rem;
+        right: -40rem;
+        color: #F5F5F5;
+        font-size: 12rem;
+      }
+
+      .legendasBox .textoA {
+        font-size: 6rem;
+        color: #F5F5F5;
+        top:-28rem;
+        right: -42rem;
+      }
+
+      .legendasBox .numeroB {
+        color: #F5F5F5;
+        font-size: 12rem;
+        top:-43rem;
+        right: -40rem;
+      }
+
+      .legendasBox .textoB {
+        font-size: 5rem;
+        color: #F5F5F5;
+        top:-28rem;
+        right: -47rem;
+      }
+
+      .legendasBox .numeroC {
+        color: #F5F5F5;
+        font-size: 12rem;
+        top:-43rem;
+        right: -41rem;
+      }
+
+      .legendasBox .textoC {
+        font-size: 5rem;
+        color: #F5F5F5;
+        top:-28rem;
+        right: -42rem;
+      }
+
+      .starImg1 {
+        position: absolute;
+        top: -13rem;
+        left: -11rem;
+      }
+
+      .contatoWrapper{
+        flex-direction: column;
+      }
+
+      .contatoInfos{
+        width: 628px;
+      }
+
+      .photoSectionBox{
+        display: none;
+      }
+
+      .carrossel{
+        display: flex;
+        width: 65rem;
+      }
+
+      .ingressoSectionBox{
+        display: none;
+      }
+      
+      .spacing {
+        margin-bottom: 4rem;
+      }
+
+      .layer{
+        display: none;
+      }
+
+      .layerResponsivo {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -15px;
+      }
+}

@@ -1,0 +1,144 @@
+.Wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+    flex-direction: column;
+
+}
+.Container{
+    font-size: 16px;
+    width:72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #2FDD41;
+    color: white;
+    /* para testes */
+    /* margin-top: 10em; */
+    height: 34em;
+}
+.Content{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin:3em;
+    gap:5em;
+}
+.Content .Description{
+    width: 50%;
+    font-size: 1.25em;
+    display: flex;
+    gap:2em;
+    flex-direction:column;
+    align-items: center;
+
+}
+.Content .Description .mainContent{
+   font-size: 1.5em; 
+   margin-bottom:0;
+
+}
+.Content p{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.Price{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap:0.7em;
+    justify-content: center;
+    align-items: center;
+
+}
+.Price h2{
+    margin:0 0 1em 0;
+    font-size: 4.5em !important;
+    margin: 0 !important;
+}
+.Price p{
+    color: #2FDD41;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.8125em;
+}
+
+.Container h2{
+    font-size: 350%;
+    -webkit-text-stroke: 0.1px #2FDD41;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dela Gothic One', cursive;
+    margin: 0 0 0 0;
+}
+.Container span{
+    -webkit-text-stroke: 0;
+    -webkit-text-fill-color: #2FDD41;
+    color:#2FDD41;
+}
+.Button{
+    color:white;
+    position: relative;
+    top: 5.5%;
+    font-size:1.8125em !important;
+    background-color: #990DCE;
+    width: 22.8125em;
+    height:  3em;
+    border: none;
+    font-family: 'Dela Gothic One', cursive;
+}
+.Button:hover{
+    background-color: #2FDD41;
+    cursor: pointer;
+}
+
+.Mobile{
+    display: none;
+}
+
+@media (max-width:1290px){
+    .Mobile{
+        display: flex;
+    }
+    .Desktop{
+        display: none;
+    }
+    .Wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor:default;
+        flex-direction: column;
+        
+    }
+    
+    .Container{
+        font-size: 16px;
+        width:72%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #2FDD41;
+        color: white;
+        /* para testes */
+        height: auto;
+        
+    }
+    .Container h2{
+        font-size: 350%;
+        -webkit-text-stroke: 0.1px #2FDD41;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Dela Gothic One', cursive;
+        margin: 0.5em 0 0 0;
+    }
+    .Content{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        margin:3em;
+        gap:5em;
+        flex-direction: column;
+    }
+}

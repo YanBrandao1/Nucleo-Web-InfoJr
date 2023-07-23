@@ -1,0 +1,95 @@
+.navbarBox {
+    
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flexboxHeader {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2FDD41;
+}
+
+.flexboxHeader h1 {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    color: #990DCE;
+    font-weight: 900;
+}
+
+.botaoDeAbrirMenu {
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.botaoDeAbrirMenu:hover {
+    cursor: pointer;
+}
+
+.modalFullScreen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2FDD41;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 700;
+    z-index: 9999;
+}
+
+.modalFullScreen nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+    row-gap: 3.5rem;
+    list-style: none;
+}
+
+.modalFullScreen a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.modalFullScreen a:hover{
+    color: #990DCE;
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+}
+
+.closeButton:hover {
+    cursor: pointer;
+    color: #990DCE;
+}
+
+.logoutButton{
+    border-width: 3px;
+    border-color: #990DCE;  
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 14px;
+    background-color: transparent;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 1em;
+    margin:  0 1em 0 1em;
+}

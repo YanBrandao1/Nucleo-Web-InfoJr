@@ -1,0 +1,256 @@
+.Wrapper{
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12em;
+    white-space: nowrap;
+}
+
+.Container{
+    font-size:16px;
+    display: flex;
+    
+    border: 1px solid #2FDD41;
+    width: 80.625em;
+    /*height: 48em;*/
+    margin: 10em 0 0 0;
+    
+}
+.Container div{
+    display: flex;
+}
+
+.form{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1; 
+    height: 100%;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    width: 80%;
+}
+
+.form h3{
+    text-align: center;
+    font-size: 3.125em;
+    color:#2FDD41;
+    width: 100%;
+    margin: 1.25em 0 0.75em 0;
+}
+
+.form span{
+    -webkit-text-stroke: 0.1px #2FDD41;
+    -webkit-text-fill-color: transparent;
+}
+
+.form label{
+    width: 100%;
+    font-size:1.8125em;
+    color: #2FDD41;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.form input{
+    align-self: center;
+    font-size:1.25em;
+    height: 3em;
+    width: 29em;
+    background-color: transparent;
+    border: 1px solid #2FDD41;
+    margin-bottom:1em;
+    font-family: 'PT Sans Caption', sans-serif;
+    color:white;
+    padding-left: 0.7em;
+}
+
+/* .form input:active{
+    border: 1px solid #990DCE!important;
+} */
+
+.doubleInput{
+    display: flex; 
+    gap:2em;
+    width: 100%;
+}
+.inputIdade{
+    width:8.3125em!important;
+    
+}
+.inputSenha{
+    width:19.5em!important;
+    height: 3em!important;
+}
+
+.Senha, .Idade{
+    display: flex;
+    flex-direction: column;
+}
+.privacyPolicy{
+    display: flex;
+
+}
+.privacyPolicy{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom:1em;
+    justify-content: center;
+}
+
+.politicaPrivacidade {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.25em !important;
+    color: white !important;
+    font-weight: 400 !important;
+    
+  }
+  
+  .form input[type="checkbox"] {
+    display: none;
+  }
+  
+  .form input[type="checkbox"] + label::before {
+    margin-left: 0.8em;
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 8px;
+    background-color: transparent;
+    border: 1px solid #2FDD41;
+    cursor:pointer;
+  }
+  
+  .form input[type="checkbox"]:checked + label::before {
+    background-color: #2FDD41;
+  }
+  
+  .submitButton{
+    position: absolute;
+    bottom:65%;
+    left:85%;
+    padding:0.5em 1.5em 0.5em 1.5em;
+    background-color: #990DCE;
+    color:white;
+    font-family: 'Dela Gothic One', sans-serif;
+    border:none;
+    font-size: 1.8em; 
+    cursor:pointer;
+    height: auto;
+    width: auto;
+    
+  }
+ 
+  .submitButton:hover{
+    background-color: #2FDD41;
+  }
+  .singUpWrapper{
+    display: flex;
+    position: relative;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .singUpWrapper p{
+    font-size: 1.25em;
+    margin-top: 3em;
+    margin-left: 96%;
+    color:white;
+    font-family: 'PT Sans Caption', sans-serif;
+  }
+  .singUpWrapper a{
+    color: #2FDD41;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-decoration: none;
+  }
+
+  .imgs{
+    position: relative;
+  }
+  .imgLogo{
+    opacity:0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .imgResponsivoBox{
+    display: none !important;
+    
+  }
+  
+  .navbarResponsivo {
+    display: none;
+  }
+  
+  @media (max-width:1290px){
+
+    .imgResponsivoBox{
+      display: block !important;
+      
+    }
+
+    .Container{
+      flex-direction: column;
+      width: 70rem;
+      margin-top: 8rem;
+      height: 120rem;
+    }
+
+    .imgs{
+      display: none !important;
+    }
+
+    .navbarResponsivo {
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbarDesktop{
+      display: none;
+    }
+
+    .doubleInput {
+      flex-direction: column;
+      gap: 0;
+    }
+    .inputIdade{
+      width: 58rem !important;
+    }
+    .inputSenha{
+      width: 58rem !important;
+    }
+
+
+    .submitButton{
+      left: -17rem;
+      bottom: -3rem;
+    }
+    .singUpWrapper p {
+      position:absolute;
+      margin: 0;
+      bottom: -7rem;
+      left: -14rem;
+    }
+
+    .singUpBox{
+      position: absolute;
+      left: 0;
+    }
+
+    .imgLogo{
+      top: 30rem;
+    }
+    
+  }
+

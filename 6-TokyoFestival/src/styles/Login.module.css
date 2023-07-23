@@ -1,0 +1,218 @@
+.Wrapper{
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12em;
+    white-space: nowrap;
+}
+
+.Container{
+    font-size:16px;
+    display: flex;
+    border: 1px solid  #B85ADB;
+    width: 80.625em;
+    /*height: 48em;*/
+    margin: 10em 0 0 0;
+    
+}
+.Container div{
+    display: flex;
+}
+
+.form{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1; 
+    height: 100%;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    width: 80%;
+}
+
+.form h3{
+    text-align: center;
+    font-size: 3.125em;
+    color: #B85ADB;
+    width: 100%;
+    margin: 1.25em 0 0.75em 0;
+}
+
+.form span{
+    -webkit-text-stroke: 0.1px  #B85ADB;
+    -webkit-text-fill-color: transparent;
+}
+
+.form label{
+    width: 100%;
+    font-size:1.8125em;
+    color:  #B85ADB;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.form input{
+    align-self: center;
+    font-size:1.25em;
+    height: 3em;
+    width: 29em;
+    background-color: transparent;
+    border: 1px solid  #B85ADB;
+    margin-bottom:1em;
+    font-family: 'PT Sans Caption', sans-serif;
+    color:white;
+    padding-left: 0.7em;
+}
+
+
+.doubleInput{
+    display: flex; 
+    gap:2em;
+    width: 100%;
+}
+.inputIdade{
+    width:8.3125em!important;
+    
+}
+.inputSenha{
+    width:29em!important;
+    height: 3em!important;
+}
+
+.Senha, .Idade{
+    display: flex;
+    flex-direction: column;
+}
+  
+  .submitButton{
+    position: absolute;
+    bottom:65%;
+    left:85%;
+    padding:0.5em 1.5em 0.5em 1.5em;
+    background-color: #2FDD41;
+    color:white;
+    font-family: 'Dela Gothic One', sans-serif;
+    border:none;
+    font-size: 1.8em; 
+    cursor:pointer;
+    height: auto;
+    width: 36rem;
+    
+  }
+ 
+  .submitButton:hover{
+    background-color:  #B85ADB;
+  }
+  .singUpWrapper{
+    display: flex;
+    position: relative;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .singUpWrapper p{
+    font-size: 1.25em;
+    margin-top: 3em;
+    margin-left: 96%;
+    color:white;
+    font-family: 'PT Sans Caption', sans-serif;
+  }
+  .singUpWrapper a{
+    color:  #B85ADB;
+    font-family: 'PT Sans Caption', sans-serif;
+    
+    text-decoration: none;
+  }
+
+  .imgs{
+    position: relative;
+  }
+  .imgLogo{
+    opacity:0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+.forgetPassword a{
+    margin-left: 37rem;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.imgResponsivoBox{
+  display: none !important;
+  
+}
+
+.navbarResponsivo {
+  display: none;
+}
+
+@media (max-width:1290px){
+
+  .imgResponsivoBox{
+    display: block !important;
+    
+  }
+  .Container{
+    flex-direction: column;
+    width: 70rem;
+    margin-top: 8rem;
+    height: 120rem;
+  }
+
+  .imgs{
+    display: none !important;
+  }
+
+  .navbarResponsivo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbarDesktop{
+    display: none;
+  }
+
+  .doubleInput {
+    flex-direction: column;
+    gap: 0;
+  }
+  .inputIdade{
+    width: 58rem !important;
+  }
+  .inputSenha{
+    width: 58rem !important;
+  }
+
+
+  .submitButton{
+    left: -17rem;
+    bottom: -3rem;
+  }
+  .singUpWrapper p {
+    position:absolute;
+    margin: 0;
+    bottom: -7rem;
+    left: -14rem;
+  }
+
+  .singUpBox{
+    position: absolute;
+    left: 0;
+  }
+
+  .imgLogo{
+    top: 30rem;
+  }
+
+
+}

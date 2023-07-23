@@ -1,0 +1,32 @@
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:22em;
+    
+    /* padding-bottom: 30em; */
+}
+.cards{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap:12em;
+    margin-bottom: 6em;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarResponsivo {
+    display: none;
+}
+
+@media (max-width:1290px){
+    .navbarDesktop{
+        display: none;
+    }
+    .navbarResponsivo {
+        display: flex;
+        justify-content: center;
+      }
+
+}
